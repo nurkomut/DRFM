@@ -1,0 +1,1 @@
+print("Proje burada yapilmali")
