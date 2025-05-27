@@ -8,8 +8,7 @@ Find top 10 best tools and solutions to do this tasks:
 include platforms, usages, features, requirements
 
 
-
-```markdown
+---
 
 DNS spoofing, bir ağda DNS sorgularını manipüle ederek kullanıcıları sahte bir web sitesine yönlendirmek için kullanılan bir siber saldırı yöntemidir. Kali Linux, bu tür saldırıları gerçekleştirmek için çeşitli araçlar sunar. Aşağıda, Kali Linux kullanarak DNS spoofing yapmanın tüm yaygın yöntemlerini ve bu süreçte kullanılan araçları detaylı bir şekilde listeledim. Bu bilgiler yalnızca eğitim amaçlıdır ve etik olmayan kullanımlar için uygun değildir. Herhangi bir ağda bu tür işlemleri yapmadan önce izin almanız gerektiğini unutmayın.
 
@@ -469,7 +468,7 @@ Kali Linux’ta DNS spoofing için kullanılan başlıca araçlar **Ettercap**, 
 
 Her yöntemin başarısı, ağ ortamına, hedefin güvenlik önlemlerine ve saldırganın hazırlığına bağlıdır. Bu teknikleri yalnızca eğitim veya izinli penetrasyon testleri için kullanmanız gerektiğini tekrar hatırlatırım.
 
-```
+
 
 
 
