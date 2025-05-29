@@ -1,25 +1,26 @@
-✨ Gemini ve Yol Haritası Araçları için Etkili Prompt Oluşturma Rehberi ✨
+# ✨ Gemini ve Yol Haritası Araçları için Etkili Prompt Oluşturma Rehberi ✨
+
 Bu rehber, projeniz kapsamında derinlemesine araştırma yapmak ve bu araştırmayı detaylı bir yol haritasına dönüştürmek için Gemini ve GROK THINK (veya benzeri bir gelişmiş planlama/yol haritası oluşturma aracı) için nasıl etkili prompt'lar hazırlayacağınızı adım adım açıklar.
 
-🚀 Prompt 1: Gemini ile Derinlemesine Araştırma (Deep Research)
-Amaç: Belirli bir alan için 2025 yılına ait en son ve en etkili ilk 10 tekniği veya trendi belirlemek.
+---
 
-Neden Önemli? Projenizin geleceğe yönelik ve yenilikçi olmasını sağlamak için en güncel bilgilere ve yaklaşımlara hakim olmak kritik öneme sahiptir.
+## 🚀 Prompt 1: Gemini ile Derinlemesine Araştırma (Deep Research)
 
-Prompt Hazırlarken Dikkat Edilmesi Gerekenler:
+**Amaç:** Belirli bir alan için 2025 yılına ait en son ve en etkili ilk 10 tekniği veya trendi belirlemek.
 
-Netlik ve Kapsam: Araştırmanın hangi alanda yapılacağını açıkça belirtin (örneğin, "yapay zeka destekli siber güvenlik teknikleri", "sürdürülebilir enerji üretim teknolojileri", "web geliştirme framework'leri").
+**Neden Önemli?** Projenizin geleceğe yönelik ve yenilikçi olmasını sağlamak için en güncel bilgilere ve yaklaşımlara hakim olmak kritik öneme sahiptir.
 
-Zaman Aralığı: "2025 yılı için" gibi net bir zaman aralığı belirtin.
+**Prompt Hazırlarken Dikkat Edilmesi Gerekenler:**
 
-İstenen Çıktı Formatı: Sonuçların nasıl bir formatta istendiğini belirtmek faydalı olabilir (örneğin, "bir liste halinde", "her bir teknik için kısa bir açıklama ile birlikte").
+1.  **Netlik ve Kapsam:** Araştırmanın hangi alanda yapılacağını açıkça belirtin (örneğin, "yapay zeka destekli siber güvenlik teknikleri", "sürdürülebilir enerji üretim teknolojileri", "web geliştirme framework'leri").
+2.  **Zaman Aralığı:** "2025 yılı için" gibi net bir zaman aralığı belirtin.
+3.  **İstenen Çıktı Formatı:** Sonuçların nasıl bir formatta istendiğini belirtmek faydalı olabilir (örneğin, "bir liste halinde", "her bir teknik için kısa bir açıklama ile birlikte").
+4.  **Derinlik Seviyesi:** "Derinlemesine araştırma" veya "kapsamlı analiz" gibi ifadeler kullanarak istediğiniz detayın seviyesini vurgulayın.
+5.  **Kaynak Güvenilirliği:** Mümkünse, güvenilir akademik makaleler, endüstri raporları veya uzman görüşleri gibi kaynaklara atıfta bulunulmasını isteyin.
 
-Derinlik Seviyesi: "Derinlemesine araştırma" veya "kapsamlı analiz" gibi ifadeler kullanarak istediğiniz detayın seviyesini vurgulayın.
+**Örnek Gemini Deep Research Prompt'u:**
 
-Kaynak Güvenilirliği: Mümkünse, güvenilir akademik makaleler, endüstri raporları veya uzman görüşleri gibi kaynaklara atıfta bulunulmasını isteyin.
-
-Örnek Gemini Deep Research Prompt'u:
-
+```text
 # Gemini Deep Research Prompt Örneği
 
 **Rol:** Sen, belirtilen alanda uzmanlaşmış bir araştırma analistisin.
@@ -44,26 +45,27 @@ Kaynak Güvenilirliği: Mümkünse, güvenilir akademik makaleler, endüstri rap
 - Blokzincir Teknolojileri
 - Dijital Pazarlama Stratejileri
 - İnsan-Bilgisayar Etkileşimi Arayüzleri
+```
 
-🗺️ Prompt 2: GROK THINK (veya Benzeri) ile Detaylı Yol Haritası Oluşturma
-Amaç: Gemini'nin araştırma çıktısını kullanarak, projenin belirli hedeflerine ulaşmak için adım adım, detaylı ve uygulanabilir bir yol haritası oluşturmak.
+---
 
-Neden Önemli? İyi bir yol haritası, projenin zamanında ve bütçe dahilinde tamamlanmasını sağlar, ekip üyelerine netlik sunar ve ilerlemeyi izlemeyi kolaylaştırır.
+## 🗺️ Prompt 2: GROK THINK (veya Benzeri) ile Detaylı Yol Haritası Oluşturma
 
-Prompt Hazırlarken Dikkat Edilmesi Gerekenler:
+**Amaç:** Gemini'nin araştırma çıktısını kullanarak, projenin belirli hedeflerine ulaşmak için adım adım, detaylı ve uygulanabilir bir yol haritası oluşturmak.
 
-Girdi Olarak Araştırma Sonuçları: Prompt'un başında, Gemini'den elde edilen araştırma sonuçlarının (ilk 10 teknik/trend) net bir şekilde girdi olarak verileceğini belirtin.
+**Neden Önemli?** İyi bir yol haritası, projenin zamanında ve bütçe dahilinde tamamlanmasını sağlar, ekip üyelerine netlik sunar ve ilerlemeyi izlemeyi kolaylaştırır.
 
-Proje Hedefleri: Yol haritasının hangi ana proje hedeflerine hizmet edeceğini tanımlayın.
+**Prompt Hazırlarken Dikkat Edilmesi Gerekenler:**
 
-Yol Haritası Detay Seviyesi: Ne kadar detaylı bir yol haritası istediğinizi belirtin (örneğin, "ana aşamalar", "her aşama için görevler", "tahmini süreler", "sorumlu kişiler/ekipler", "gerekli kaynaklar", "potansiyel riskler ve önlemler").
+1.  **Girdi Olarak Araştırma Sonuçları:** Prompt'un başında, Gemini'den elde edilen araştırma sonuçlarının (ilk 10 teknik/trend) net bir şekilde girdi olarak verileceğini belirtin.
+2.  **Proje Hedefleri:** Yol haritasının hangi ana proje hedeflerine hizmet edeceğini tanımlayın.
+3.  **Yol Haritası Detay Seviyesi:** Ne kadar detaylı bir yol haritası istediğinizi belirtin (örneğin, "ana aşamalar", "her aşama için görevler", "tahmini süreler", "sorumlu kişiler/ekipler", "gerekli kaynaklar", "potansiyel riskler ve önlemler").
+4.  **Zaman Çizelgesi:** Genel bir zaman çizelgesi beklentiniz varsa (örneğin, "6 aylık bir yol haritası", "2025 sonuna kadar tamamlanacak şekilde") bunu ekleyin.
+5.  **İstenen Çıktı Formatı:** Yol haritasının nasıl bir formatta sunulmasını istediğinizi belirtin (örneğin, "aşama bazlı liste", "Gantt şeması için uygun veri yapısı", "Markdown formatında tablo").
 
-Zaman Çizelgesi: Genel bir zaman çizelgesi beklentiniz varsa (örneğin, "6 aylık bir yol haritası", "2025 sonuna kadar tamamlanacak şekilde") bunu ekleyin.
+**Örnek GROK THINK Prompt'u (Gemini Çıktısını Kullanarak):**
 
-İstenen Çıktı Formatı: Yol haritasının nasıl bir formatta sunulmasını istediğinizi belirtin (örneğin, "aşama bazlı liste", "Gantt şeması için uygun veri yapısı", "Markdown formatında tablo").
-
-Örnek GROK THINK Prompt'u (Gemini Çıktısını Kullanarak):
-
+```text
 # GROK THINK Yol Haritası Prompt Örneği
 
 **Rol:** Sen, karmaşık projeler için stratejik planlama ve yol haritası oluşturma konusunda uzman bir proje yöneticisisin.
@@ -100,15 +102,15 @@ Yol haritasını, ana başlıklar (Aşamalar) ve alt başlıklar (Görevler, Sü
 **Kısıtlamalar:**
 - Yol haritası gerçekçi ve uygulanabilir olmalıdır.
 - Verilen araştırma sonuçlarını (ilk 10 teknik) yol haritasına entegre etmeye odaklan.
+```
 
-💡 Ek İpuçları:
+---
 
-Iterasyon: İlk denemede mükemmel prompt'u yazamayabilirsiniz. Sonuçları değerlendirin ve prompt'larınızı iyileştirin.
+**💡 Ek İpuçları:**
 
-Örnek Verin: Modele ne tür bir çıktı beklediğinizi göstermek için örnekler eklemek (few-shot prompting) genellikle sonuçları iyileştirir.
-
-Rol Atama: Modele bir rol atamak (örneğin, "Sen bir siber güvenlik uzmanısın") daha odaklı ve bağlama uygun cevaplar almanıza yardımcı olabilir.
-
-Basit Başlayın: Çok karmaşık bir prompt ile başlamak yerine, daha basit bir versiyonla başlayıp yavaş yavaş detay ekleyebilirsiniz.
+* **İterasyon:** İlk denemede mükemmel prompt'u yazamayabilirsiniz. Sonuçları değerlendirin ve prompt'larınızı iyileştirin.
+* **Örnek Verin:** Modele ne tür bir çıktı beklediğinizi göstermek için örnekler eklemek (few-shot prompting) genellikle sonuçları iyileştirir.
+* **Rol Atama:** Modele bir rol atamak (örneğin, "Sen bir siber güvenlik uzmanısın") daha odaklı ve bağlama uygun cevaplar almanıza yardımcı olabilir.
+* **Basit Başlayın:** Çok karmaşık bir prompt ile başlamak yerine, daha basit bir versiyonla başlayıp yavaş yavaş detay ekleyebilirsiniz.
 
 Bu rehberin, projenizin araştırma ve planlama süreçlerini daha verimli hale getirmesine yardımcı olacağını umuyoruz!
