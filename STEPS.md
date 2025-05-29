@@ -28,9 +28,9 @@ Başlamak için aşağıdaki şablon depoyu ziyaret edin:
 
 Daha fazla detay ve görsel anlatım için aşağıdaki eğitim videosunu izleyebilirsiniz:
 
-<!-- [Eğitim Videosunu İzle](https://www.youtube.com/watch?v=CjhOSFO38V4) -->
-
-- **Eğitim Videosunu İzle**: <iframe width="560" height="315" src="https://www.youtube.com/embed/CjhOSFO38V4" frameborder="0" allowfullscreen></iframe>
+[Eğitim Videosunu İzle](https://www.youtube.com/watch?v=CjhOSFO38V4)
+<!-- 
+- **Eğitim Videosunu İzle**: <iframe width="560" height="315" src="https://www.youtube.com/embed/CjhOSFO38V4" frameborder="0" allowfullscreen></iframe> -->
 
 <!-- Step.2:
 
