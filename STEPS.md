@@ -55,6 +55,13 @@ Deponuz için temel ayarları yaptıktan sonra veya projenizin herhangi bir aşa
 
 [Eğitim Videosunu İzle](https://youtu.be/-AZ-h_ivXdc)
 
+
+Adım 3: README.MD dosyasini hazirlamak
+
+[Eğitim Videosunu İzle](https://youtu.be/Lc6JnRCWe4w)
+
+
+
 <!-- 
 
 Step.3:
