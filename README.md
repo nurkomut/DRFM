@@ -3,7 +3,7 @@
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/keyvanarasteh/Project?style=for-the-badge&color=1e90ff&logo=github">
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/keyvanarasteh/Project?style=for-the-badge&color=ff69b4&logo=github">
   <br>
-  <img alt="License" src="https://img.shields.io/github/license/YOUR_USERNAME/YOUR_REPO?style=for-the-badge&color=yellow">
+  <img alt="License" src="https://img.shields.io/github/license/keyvanarasteh/Project?style=for-the-badge&color=yellow">
   <img alt="Project Status" src="https://img.shields.io/badge/Status-ActiveDevelopment-green?style=for-the-badge">
   <img alt="Contributions Welcome" src="https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg?style=for-the-badge">
 </p>
