@@ -1,3 +1,4 @@
+# Adım 1: Depo Yapılandırma
 
 ## **Adım 1.1: Şablon Depoya Gidin**
 
@@ -57,6 +58,10 @@ Deponuz için temel ayarları yaptıktan sonra veya projenizin herhangi bir aşa
 
 
 # Adım 3: README.MD dosyasini hazirlamak
+
+[Eğitim Videosunu İzle](https://youtu.be/Lc6JnRCWe4w)
+
+# Adım 4: Generate Research Prompts
 
 [Eğitim Videosunu İzle](https://youtu.be/Lc6JnRCWe4w)
 
