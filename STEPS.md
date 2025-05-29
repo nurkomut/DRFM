@@ -51,12 +51,12 @@ Deponuz için temel ayarları yaptıktan sonra veya projenizin herhangi bir aşa
 
 7. Add [kullanıcı_adı] to [depo_adı] (Örn: Add JaneDoe to my-awesome-project) butonuna tıklayarak daveti gönderin. Davet edilen kişi, kabul etmesi için bir e-posta bildirimi alacaktır.
 
-## Bu adımla ilgili daha fazla bilgi için aşağıdaki videoyu izleyebilirsiniz:
+### Bu adımla ilgili daha fazla bilgi için aşağıdaki videoyu izleyebilirsiniz:
 
 [Eğitim Videosunu İzle](https://youtu.be/-AZ-h_ivXdc)
 
 
-Adım 3: README.MD dosyasini hazirlamak
+# Adım 3: README.MD dosyasini hazirlamak
 
 [Eğitim Videosunu İzle](https://youtu.be/Lc6JnRCWe4w)
 
