@@ -123,7 +123,9 @@ README.MD dosyanızda aşağıdaki bilgileri düzenli bir şekilde liste halinde
 ```
 
 
-[Eğitim Videosunu İzle](https://youtu.be/Lc6JnRCWe4w)
+[Eğitim Videosunu İzle (PART-01)](https://youtu.be/OMQTEeTQEng)
+[Eğitim Videosunu İzle (PART-02)](https://youtu.be/Ox9cgd2DN7c)
+[Eğitim Videosunu İzle (PART-03)](https://youtu.be/xnczyi3Bhq0)
 
 
 
