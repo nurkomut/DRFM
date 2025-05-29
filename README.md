@@ -1,7 +1,7 @@
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/YOUR_USERNAME/YOUR_REPO?style=for-the-badge&color=blueviolet&logo=github">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/YOUR_USERNAME/YOUR_REPO?style=for-the-badge&color=1e90ff&logo=github">
-  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/YOUR_USERNAME/YOUR_REPO?style=for-the-badge&color=ff69b4&logo=github">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/keyvanarasteh/Project?style=for-the-badge&color=blueviolet&logo=github">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/keyvanarasteh/Project?style=for-the-badge&color=1e90ff&logo=github">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/keyvanarasteh/Project?style=for-the-badge&color=ff69b4&logo=github">
   <br>
   <img alt="License" src="https://img.shields.io/github/license/YOUR_USERNAME/YOUR_REPO?style=for-the-badge&color=yellow">
   <img alt="Project Status" src="https://img.shields.io/badge/Status-ActiveDevelopment-green?style=for-the-badge">
