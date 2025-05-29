@@ -88,6 +88,13 @@ README.MD dosyanızda aşağıdaki bilgileri düzenli bir şekilde liste halinde
 5.  **Kaynak Güvenilirliği:** Mümkünse, güvenilir akademik makaleler, endüstri raporları veya uzman görüşleri gibi kaynaklara atıfta bulunulmasını isteyin.
 
 
+[Eğitim Videosunu İzle (PART-01)](https://youtu.be/OMQTEeTQEng)
+
+[Eğitim Videosunu İzle (PART-02)](https://youtu.be/Ox9cgd2DN7c)
+
+[Eğitim Videosunu İzle (PART-03)](https://youtu.be/xnczyi3Bhq0)
+
+
 
 **Örnek Gemini Deep Research Prompt'u:**
 
@@ -121,11 +128,6 @@ README.MD dosyanızda aşağıdaki bilgileri düzenli bir şekilde liste halinde
 - Dijital Pazarlama Stratejileri
 - İnsan-Bilgisayar Etkileşimi Arayüzleri
 ```
-
-
-[Eğitim Videosunu İzle (PART-01)](https://youtu.be/OMQTEeTQEng)
-[Eğitim Videosunu İzle (PART-02)](https://youtu.be/Ox9cgd2DN7c)
-[Eğitim Videosunu İzle (PART-03)](https://youtu.be/xnczyi3Bhq0)
 
 
 
