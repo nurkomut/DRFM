@@ -59,6 +59,14 @@ Deponuz için temel ayarları yaptıktan sonra veya projenizin herhangi bir aşa
 
 # Adım 3: README.MD dosyasini hazirlamak
 
+README.MD dosyanızda aşağıdaki bilgileri düzenli bir şekilde liste halinde yazmanız gerekmektedir:
+
+- Proje Adı
+- Takım Üyeleri
+- Açıklama
+- Hedefler
+- Bağlantılar
+
 [Eğitim Videosunu İzle](https://youtu.be/Lc6JnRCWe4w)
 
 # Adım 4: Generate Research Prompts
