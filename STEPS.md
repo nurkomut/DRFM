@@ -28,13 +28,34 @@ Başlamak için aşağıdaki şablon depoyu ziyaret edin:
 
 Daha fazla detay ve görsel anlatım için aşağıdaki eğitim videosunu izleyebilirsiniz:
 
-[Eğitim Videosunu İzle](https://www.youtube.com/watch?v=CjhOSFO38V4)
+[Eğitim Videosunu İzle](https://youtu.be/CjhOSFO38V4)
+
+# Adım 2: Takım Üyelerini Davet Etme
+
+Deponuz için temel ayarları yaptıktan sonra veya projenizin herhangi bir aşamasında takım arkadaşlarınızı davet edebilirsiniz.
+
+1. GitHub deponuzun ana sayfasına gidin.
+
+2. Depo adının altında yer alan sekmelerden Settings (Ayarlar) seçeneğine tıklayın.
+
+
+3. Sol taraftaki menüden Collaborators (İş Birlikçileri) başlığına tıklayın.
+
+
+4. Sayfanın sağ tarafında bulunan yeşil renkli Add people (Kişi ekle) butonuna tıklayın.
+
+
+5. Açılan modal pencerede, davet etmek istediğiniz kişinin GitHub kullanıcı adını, tam adını veya kayıtlı e-posta adresini arama kutusuna yazın.
+
+6. Doğru kişiyi bulduğunuzda seçin. Varsayılan olarak 'Write' (Yazma) izni atanacaktır. Gerekirse bu izni değiştirebilirsiniz.
+
+7. Add [kullanıcı_adı] to [depo_adı] (Örn: Add JaneDoe to my-awesome-project) butonuna tıklayarak daveti gönderin. Davet edilen kişi, kabul etmesi için bir e-posta bildirimi alacaktır.
+
+## Bu adımla ilgili daha fazla bilgi için aşağıdaki videoyu izleyebilirsiniz:
+
+[Eğitim Videosunu İzle](https://youtu.be/-AZ-h_ivXdc)
+
 <!-- 
-- **Eğitim Videosunu İzle**: <iframe width="560" height="315" src="https://www.youtube.com/embed/CjhOSFO38V4" frameborder="0" allowfullscreen></iframe> -->
-
-<!-- Step.2:
-
-Invite team members.
 
 Step.3:
 
