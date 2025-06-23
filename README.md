@@ -104,6 +104,55 @@ python src/drfm_output_size_test.py
 
 Bu betik, oluşturulan sinyallerin bayt cinsinden bellek boyutlarını karşılaştırır.
 
+---
+
+
+
+
+
+
+## ⚙️ Kullanılan Temel Teknolojiler
+
+DRFM sistemleri aşağıdaki temel teknolojiler üzerine kuruludur:
+
+| 🧩 **Teknoloji**             | 📘 **Açıklama**                                                                 |
+|-----------------------------|----------------------------------------------------------------------------------|
+| **RF Alıcı & Verici**        | Geniş bant radar sinyallerini alır, işledikten sonra manipüle edilmiş olarak tekrar yayınlar. |
+| **ADC / DAC**                | Analog sinyalleri dijital forma dönüştürür (ADC), ardından işlenmiş sinyali tekrar analog hale getirir (DAC). |
+| **Bellek (RAM, FIFO)**       | Alınan radar sinyalleri geçici olarak yüksek hızlı belleklerde saklanır.      |
+| **DSP / FPGA**               | Dijital sinyal işleme birimleri; zaman geciktirme, frekans kaydırma, faz manipülasyonu gibi işlemleri gerçek zamanlı olarak yapar. |
+| **Gömülü Yazılım**           | Sistem üzerinde çalışan yazılımlar, tehdit algılama ve sinyal üretme süreçlerini yönetir. |
+| **Karşı Tedbir Yazılımları** | Düşman radarlarını yanıltmaya yönelik senaryolar üretir (örneğin: sahte hedef oluşturma, Doppler aldatma). |
+
+
+
+
+
+## 🚀 Kullanım Senaryoları
+
+**DRFM (Digital Radio Frequency Memory)** sistemleri, elektronik harp sahasında çeşitli taktik avantajlar sağlamak amacıyla aşağıdaki alanlarda kullanılır:
+
+### 🎯 Sahte Hedef Oluşturma (False Target Generation)
+Gerçek hedefin konumuna benzer birden fazla sahte hedef sinyali gönderilerek düşman radarının yanıltılması sağlanır.
+
+### 🎯 Radar Karıştırma ve Yanıltma
+Düşman radarına gönderilen bozulmuş veya değiştirilmiş sinyallerle hedefin algılanması engellenir.
+
+### 🎯 Doppler Aldatması (Velocity Gate Pull-Off)
+Sinyalin Doppler kayması değiştirilerek hedefin hızının yanlış algılanması sağlanır.
+
+### 🎯 Menzil Aldatması (Range Gate Pull-Off)
+Sinyalin zamanlama parametreleriyle oynanarak hedefin farklı bir uzaklıkta algılanması sağlanır.
+
+### 🎯 Anti-Radyasyon Füzelerinden Kaçınma
+Radar sinyallerini taklit ederek yönlendirilen füzelerin hedefi şaşırması sağlanır.
+
+
+
+
+
+
+
 
 
 
