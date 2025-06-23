@@ -7,98 +7,120 @@
   <img src="https://img.shields.io/badge/Contributions-Welcome-brightgreen?style=flat-square" alt="Contributions">
 </div>
 
-# DRFM   📡
-*Proje Adı*
+# *DRFM   📡*
 
-A brief, engaging description of your project.  
-*Projenizin kısa ve ilgi çekici bir açıklaması.*
 
----
-
-## Features / *Özellikler*
-
-- **Feature 1:** Description of the feature.  
-  *Özellik 1: Özelliğin açıklaması.*
-- **Feature 2:** Another cool thing it does.  
-  *Özellik 2: Yaptığı başka bir harika şey.*
-- **Feature 3:** One more for good measure.  
-  *Özellik 3: Ve bir tane daha.*
-- Add more as they develop.  
-  *Geliştikçe daha fazla ekleyin.*
+ DRFM (Sayısal Radyo Frekans Belleği), hedef radar sinyallerini anlık olarak sayısallaştıran, dijital hafızasında işleyen ve üzerinde yaptığı manipülasyonlarla yeniden yayınlayarak karıştırma ve aldatma (jamming and deception) işlevi gören temel bir elektronik harp (EH) teknolojisidir.
 
 ---
 
-## Team / *Ekip*
+## *Elektronik Harp  Nedir ?*
 
-- **219*****031** - Name Surname: *Role or Contribution*  
-  *Ad Soyad: Rolü veya Katkısı*
-- **Another Member** - Name Surname: *Role or Contribution*  
-  *Ad Soyad: Rolü veya Katkısı*
-- Add more members as needed.  
-  *Gerektiğinde daha fazla üye ekleyin.*
+Elektronik harp (EH), elektromanyetik spektrumun askerî amaçlarla etkin biçimde kullanılması, kontrol altına alınması ve düşman tarafından kullanılmasının engellenmesi amacıyla geliştirilen savunma disiplinidir. EH, modern muharebe ortamlarında fiziksel kuvvet kullanılmadan hedef sistemlerin işlevselliğini bozmak, aldatmak veya bu sistemlerden istihbarat elde etmek için kritik rol oynamaktadır.
+Genellikle üç temel unsurdan oluşur:
 
----
+- **Elektronik Destek (ED):** Düşman veya tarafsız kaynaklardan yayılan elektromanyetik sinyallerin tespiti, tanımlanması, yerinin belirlenmesi ve analizini kapsar. Bu aşama, tehdidin karakterizasyonu için gereklidir.
+  
+- **Elektronik Taarruz (ET):** Düşman elektronik sistemlerini baskı altına almak, bozmak veya aldatmak amacıyla uygulanan aktif müdahaleleri içerir. Karıştırma (jamming) ve aldatma (deception) teknikleri bu kapsamda değerlendirilir.
 
-## Roadmap / *Yol Haritası*
+- **Elektronik Koruma (EK):** Kendi elektromanyetik sistemlerinin düşman müdahalelerine karşı güvenliğini ve sürekliliğini sağlamak amacıyla alınan önlemleri içerir.
 
-See our plans in [ROADMAP.md](ROADMAP.md).  
-*Yolculuğu görmek için [ROADMAP.md](ROADMAP.md) dosyasına göz atın.*
 
 ---
 
-## Research / *Araştırmalar*
+## *DRFM Çalışma Prensibi*
+ 
 
-| Topic / *Başlık*        | Link                                    | Description / *Açıklama*                        |
-|-------------------------|-----------------------------------------|------------------------------------------------|
-| Aircrack Deep Dive      | [researchs/aircrack.md](researchs/aircrack.md) | In-depth analysis of Aircrack-ng suite. / *Aircrack-ng paketinin derinlemesine analizi.* |
-| Example Research Topic  | [researchs/your-research-file.md](researchs/your-research-file.md) | Brief overview of this research. / *Bu araştırmanın kısa bir özeti.* |
-| Add More Research       | *Link to your other research files*     | *Description of the research*                  |
 
----
+DRFM sistemlerinin işleyişi, aşağıda ana hatları belirtilen sıralı ve yüksek hızlı adımlardan oluşan bir süreci takip eder.
 
-## Installation / *Kurulum*
 
-1. **Clone the Repository / *Depoyu Klonlayın***:  
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
-   cd YOUR_REPO
-   ```
 
-2. **Set Up Virtual Environment / *Sanal Ortam Kurulumu*** (Recommended):  
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
+### 1. Sinyal Alımı (Signal Acquisition)
+Sistem, hedef radar tarafından yayınlanan `RF` (Radyo Frekans) sinyalini yüksek hassasiyetli bir alıcı ile tespit eder.
 
-3. **Install Dependencies / *Bağımlılıkları Yükleyin***:  
-   ```bash
-   pip install -r requirements.txt
-   ```
 
----
+### 2. Dijitalleştirme (Digitization)
+Alınan analog `RF` sinyali, yüksek hızlı bir **Analog-Dijital Çevirici** (`ADC`) kullanılarak anlık olarak dijital veri akışına dönüştürülür.
 
-## Usage / *Kullanım*
 
-Run the project:  
-*Projeyi çalıştırın:*
 
-```bash
-python main.py --input your_file.pcap --output results.txt
-```
+### 3. Depolama ve Manipülasyon (Storage & Manipulation)
+Oluşturulan dijital veri, sistemin belleğine kaydedilir. Bu aşama, `DRFM`'in temel aldatma kabiliyetlerinin uygulandığı kritik adımdır. Kaydedilen sinyal üzerinde, aşağıdaki teknikler başta olmak üzere çeşitli manipülasyonlar gerçekleştirilir:
 
-**Steps**:  
-1. Prepare input data (*explain data needed*).  
-2. Run the script with arguments (*explain key arguments*).  
-3. Check output (*explain where to find results*).  
 
-*Adımlar*:  
-1. Giriş verilerini hazırlayın (*ne tür verilere ihtiyaç duyulduğunu açıklayın*).  
-2. Betiği argümanlarla çalıştırın (*önemli argümanları açıklayın*).  
-3. Çıktıyı kontrol edin (*sonuçları nerede bulacağınızı açıklayın*).
+
+* **Geciktirme - *Range Deception*:** Sinyalin geri yayınlanması kasıtlı olarak geciktirilir. Bu, radar ekranında hedefin gerçekte olduğundan daha uzakta görünmesine (menzil kaydırma) neden olur.
+
+
+
+* **Doppler Kaydırması - *Velocity Deception*:** Sinyalin frekansı değiştirilerek yayınlanır. Bu, hedefin hızının (örneğin yaklaşan bir hedefin yavaşlıyor veya uzaklaşıyor gibi gösterilmesi) yanlış algılanmasını sağlar.
+
+
+* **Çoklu Sahte Hedef Üretimi - *Multiple False Target Generation*:** Tek bir sinyal kopyalanarak ve aralarında küçük farklar oluşturularak birden çok kez yayınlanır. Bu, radar ekranında tek bir gerçek hedef yerine çok sayıda sahte hedef (hayalet hedef) yanılsaması oluşturur.
+
+
+
+* **Gürültü Modülasyonu ve Karıştırma - *Noise Modulation & Jamming*:** Orijinal sinyalin üzerine gürültü bindirilir veya sinyalin yapısı bozularak radarın hedefi net bir şekilde tespit etmesi veya hedefe kilitlenmesi engellenir.
+
+
+
+### 4. Geri Yayınlama (Re-transmission)
+Manipüle edilen dijital sinyal, bir **Dijital-Analog Çevirici** (`DAC`) aracılığıyla tekrar analog `RF` formatına dönüştürülür ve yüksek güçlü bir verici ile hedef radara doğru yönlendirilir.
 
 ---
 
-## Contributing / *Katkıda Bulunma*
+### Sonuç
+Bu işlemler o kadar yüksek hızda ve sinyal sadakatiyle gerçekleştirilir ki, hedef radar sisteminin geri dönen sinyalin gerçek bir yansıma mı yoksa `DRFM` tarafından üretilmiş bir aldatmaca mı olduğunu ayırt etmesi genellikle mümkün olmaz.
+
+
+
+---
+
+
+### *🧪 Test Betikleri*
+
+
+⏱️ Zamanlama Testi
+
+python src/drfm_timing_test.py
+
+Bu betik, radar darbesi üretiminin ve DRFM yankı işleminin ne kadar sürdüğünü raporlar.
+
+
+
+🧠 Bellek Kullanımı Testi
+
+python src/drfm_memory_test.py
+
+Bu betik, sinyal üretimi ve yankı süreci sırasında kullanılan RAM miktarını ölçer.
+
+
+
+📦 Çıktı Boyutu Testi
+
+python src/drfm_output_size_test.py
+
+
+Bu betik, oluşturulan sinyallerin bayt cinsinden bellek boyutlarını karşılaştırır.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+## *Katkıda Bulunma*
 
 We welcome contributions! To help:  
 1. Fork the repository.  
@@ -114,31 +136,19 @@ Follow our coding standards (see [CONTRIBUTING.md](CONTRIBUTING.md)).
 
 ---
 
-## License / *Lisans*
+## *Lisans*
 
 Licensed under the [MIT License](LICENSE.md).  
 *MIT Lisansı altında lisanslanmıştır.*
 
----
-
-## Acknowledgements / *Teşekkürler* (Optional)
-
-Thanks to:  
-- Awesome Library: For enabling X.  
-- Inspiration Source.  
-- Special thanks to...  
-
-*Teşekkürler: Harika kütüphaneler ve ilham kaynakları için.*
 
 ---
 
-## Contact / *İletişim* (Optional)
+## *İletişim* 
 
-Project Maintainer: [Your Name/Org Name] - [your.email@example.com]  
-Found a bug? Open an issue.  
 
-*Proje Sorumlusu: [Adınız/Kuruluş Adınız] - [e-posta.adresiniz@ornek.com]. Hata bulursanız bir sorun bildirin.*
+*Proje Sorumlusu: Sude Nur Komut - [2320191034@stu.istinye.edu.tr]. Hata bulursanız bir sorun bildirin.*
 
 ---
 
-*Replace placeholders (e.g., YOUR_USERNAME/YOUR_REPO) with your project details.*
+
