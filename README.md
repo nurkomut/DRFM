@@ -149,6 +149,73 @@ Radar sinyallerini taklit ederek yönlendirilen füzelerin hedefi şaşırması 
 
 ---
 
+# 🧭 DRFM Mimari Tipleri
+
+## 1. Temel DRFM (Basic Storage & Playback)
+- Gelen radar sinyali dijitalleştirilir ve küçük bir gecikmeyle yeniden yayınlanır.
+- Basit aldatma senaryoları için uygundur.
+
+## 2. Modüle Edilmiş DRFM (Modulated DRFM)
+- Kaydedilen sinyal üzerine çeşitli modülasyonlar uygulanır:
+  - Frekans
+  - Genlik
+  - Faz
+
+## 3. Gelişmiş DRFM (Cognitive / Adaptive DRFM)
+- Düşman radarının türünü tanır ve uygun aldatma taktiğini otomatik olarak seçer.
+- Kullanılan teknikler:
+  - Spektral analiz
+  - Makine öğrenmesi
+  - Kurallara dayalı karar algoritmaları
+
+---
+
+# 🧠 DRFM’in Zeka Seviyeleri
+
+| Seviye | Açıklama |
+|--------|----------|
+| **L1 - Tepkisel** | Sabit gecikme, frekans kaydırma gibi temel aldatmalar |
+| **L2 - Uyumlu** | Radar sinyal parametrelerine dinamik olarak uyum sağlar |
+| **L3 - Taktiksel** | Radar türünü sınıflandırır ve uygun aldatmayı uygular |
+| **L4 - Kognitif** | Taktik ortamı analiz eder, geçmiş verilere göre strateji geliştirir |
+
+---
+
+# 📡 DRFM ve Radar Tipleri Arasındaki Etkileşim
+
+DRFM sistemleri, farklı radar türlerine göre özelleştirilmiş aldatma taktikleri geliştirir:
+
+- **Pulse Doppler Radar**: Doppler kayması manipülasyonu önemlidir.
+- **FMCW Radar**: Doğrusal frekans tarama manipülasyonu gerektirir.
+- **Phased Array Radar**: Çok yönlü sinyal manipülasyonları uygulanabilir.
+
+---
+
+# 🧪 Ek Test Betikleri Önerileri
+
+- `drfm_signal_integrity_test.py`  
+  → Sinyal bozulması (distortion) ve spektrum analizi testi
+
+- `drfm_radar_response_emulator.py`  
+  → DRFM yankısına radarın nasıl tepki verdiğini simüle eder
+
+- `drfm_threat_classifier.py`  
+  → Gelen sinyalin radar türünü tahmin eden (makine öğrenmesine dayalı) sınıflandırıcı
+
+---
+
+# 🔐 DRFM’e Karşı Savunma Yöntemleri
+
+Radar sistemlerinin DRFM karşısında kullandığı savunma teknikleri:
+
+- **Frequency Agility**: Frekans atlama
+- **Pulse Compression**: Darbe sıkıştırma
+- **LPI Techniques**: Yakalanma olasılığı düşük sinyal teknikleri
+- **Matched Filter Algoritmaları**: DRFM yankılarını tespit etmek için
+
+
+---
+
 
 ## *Katkıda Bulunma*
 
